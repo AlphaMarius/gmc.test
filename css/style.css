@@ -1,0 +1,54 @@
+header{
+    position: fixed;
+    /*background-color: blue;*/
+    padding: 10px;
+    width: 100%;
+    z-index: 5;
+    text-align: center;
+}
+
+header h1{
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    font-weight: bold;
+    border: solid 5px #fff; 
+    color: #fff;
+    background-color: #0062ff;
+    display: inline-block;
+    padding: 2px 15px;
+    border-radius: 32px;
+
+}
+
+
+.Welcome{
+    max-width: 100%;
+    width: 1200px;
+    background-color: rgb(43, 92, 226);
+    position: relative;
+    margin: 10px auto;
+    height: 500px;
+}
+
+.Welcome img{
+    position: absolute;
+    top: 15%;
+    left: 60%;
+    width: 350px;
+    border-radius: 50%;
+    background-color: darkgray;
+    border-top-right-radius: 0;
+}
+
+.Welcome h2{
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    position: absolute;
+    left: 5%;
+    top: 40;
+    color: #333;
+}
+
+.Welcome h2 span{
+    font-weight: bolder;
+}
